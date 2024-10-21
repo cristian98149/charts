@@ -3,7 +3,39 @@ entries:
   krateo-template-smartroads:
   - apiVersion: v2
     appVersion: APP_VERSION
-    created: "2024-10-18T11:50:35.11463+02:00"
+    created: "2024-10-21T14:53:01.864019+02:00"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-basic
+      repository: https://charts.krateo.io
+      version: 0.2.5
+    description: A Helm Chart for Krateo Template SmartRoads
+    digest: 1f8e5582ed024317577eba6b64f6cbe3803a36e6a079a7b76484a6c34dfce918
+    name: krateo-template-smartroads
+    type: application
+    urls:
+    - krateo-template-smartroads-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: APP_VERSION
+    created: "2024-10-21T14:53:01.862941+02:00"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-basic
+      repository: https://charts.krateo.io
+      version: 0.2.5
+    description: A Helm Chart for Krateo Template SmartRoads
+    digest: a2648bc74e79bb7e30938d55020b15e3493a43f3bf7ee3bdd58515668c2638a2
+    name: krateo-template-smartroads
+    type: application
+    urls:
+    - krateo-template-smartroads-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: APP_VERSION
+    created: "2024-10-21T14:53:01.862345+02:00"
     dependencies:
     - alias: portal
       condition: portal.enabled
@@ -11,10 +43,26 @@ entries:
       repository: https://charts.krateo.io
       version: 0.2.5
     description: A Helm chart for Krateo Template SmartRoads
-    digest: d7d8a8ea797026da4b83dfa2adb95b3ea4a1b536fbe5c913574b0ff3232ade45
+    digest: 3147a4b43ca69c3ebd8fac8eccb860cd115f6a2d40b96c32550946ffc7bf7089
     name: krateo-template-smartroads
     type: application
     urls:
     - krateo-template-smartroads-0.0.1.tgz
     version: 0.0.1
-generated: "2024-10-18T11:50:35.113627+02:00"
+  - apiVersion: v2
+    appVersion: APP_VERSION
+    created: "2024-10-21T14:53:01.86353+02:00"
+    dependencies:
+    - alias: portal
+      condition: portal.enabled
+      name: composition-portal-basic
+      repository: https://charts.krateo.io
+      version: 0.2.5
+    description: A Helm chart for Krateo Template SmartRoads
+    digest: ec9db721fac5ec7b4e103f0ed352f41a64cb57daf863744b8d999096e4b3dd50
+    name: krateo-template-smartroads
+    type: application
+    urls:
+    - krateo-template-smartroads-0.0.3.tgz
+    version: 0.0.1
+generated: "2024-10-21T14:53:01.861792+02:00"
